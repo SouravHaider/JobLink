@@ -1,6 +1,6 @@
 # JobLink
 
-A sponsorship-aware job application tracker, built for UK visa-sponsored job searches —
+A sponsorship-aware job application tracker, built for UK visa-sponsored job searches
 now a cross-platform desktop app (macOS & Windows) with automatic inbox scanning and
 one-paste job capture.
 
@@ -8,23 +8,23 @@ I built this while searching for Skilled Worker–sponsored roles on a Graduate 
 Generic trackers don't answer the three questions that actually decide whether an
 application is worth making: **is the employer a licensed sponsor, does the salary clear
 my threshold, and does the role need security clearance?** JobLink answers all three at
-the point of entry — and then keeps your whole pipeline (and your inbox) in one place.
+the point of entry and then keeps your whole pipeline (and your inbox) in one place.
 
 ## Screenshots
 
-**Dashboard & pipeline**
+**Dashboard & Pipeline**
 
 <img src="screenshots/dashboard.png" width="100%"/>
 
 ---
 
-**Connect multiple inboxes**
+**Connect Multiple Inboxes**
 
 <p align="center"><img src="screenshots/email-inboxes.png" width="55%"/></p>
 
 ---
 
-**New application &nbsp;·&nbsp; Sponsor-aware job-board search**
+**New application &nbsp;·&nbsp; Job-Board**
 
 <p align="center">
   <img src="screenshots/new-application.png" height="340" alt="New application"/>
@@ -104,16 +104,6 @@ On Windows you can also just double-click **`build-windows.bat`**.
 `JobLink.html` is a single self-contained file (React + libraries bundled in, no internet
 needed) — double-click to open in any browser. It has everything **except** inbox scanning
 and link-fetching, which require the desktop app.
-
-## Outlook setup (optional)
-
-To scan an Outlook/Microsoft inbox, create a free app registration at
-portal.azure.com → App registrations:
-1. Accounts: "any org + personal".
-2. Authentication → Add a platform → **Mobile and desktop applications** → tick
-   `http://localhost`; set **Allow public client flows → Yes**.
-3. API permissions → Microsoft Graph → Delegated → **Mail.Read**.
-4. Paste the **Application (client) ID** into JobLink → Settings.
 
 Gmail / Yahoo / iCloud / AOL just need an **app password** from your account's security
 settings (2-step verification must be on).
