@@ -1,0 +1,71 @@
+{
+  "name": "joblink",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "main": "electron/main.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "electron:dev": "concurrently \"npm run dev\" \"wait-on http://localhost:5173 && electron .\"",
+    "electron:build": "npm run build && electron-builder --mac",
+    "electron:build:arm": "npm run build && electron-builder --mac --arm64",
+    "electron:build:win": "npm run build && electron-builder --win --x64"
+  },
+  "build": {
+    "appId": "com.joblink.app",
+    "productName": "JobLink",
+    "mac": {
+      "category": "public.app-category.productivity",
+      "target": [
+        {
+          "target": "dmg",
+          "arch": [
+            "arm64",
+            "x64"
+          ]
+        }
+      ],
+      "identity": null
+    },
+    "win": {
+      "target": [
+        {
+          "target": "nsis",
+          "arch": [
+            "x64"
+          ]
+        }
+      ]
+    },
+    "nsis": {
+      "oneClick": false,
+      "perMachine": false,
+      "allowToChangeInstallationDirectory": true
+    },
+    "files": [
+      "dist/**/*",
+      "electron/**/*"
+    ],
+    "directories": {
+      "output": "release"
+    }
+  },
+  "dependencies": {
+    "@azure/msal-browser": "^5.13.0",
+    "imapflow": "^1.4.1",
+    "mailparser": "^3.9.10",
+    "papaparse": "^5.4.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.1",
+    "concurrently": "^10.0.3",
+    "electron": "^42.4.0",
+    "electron-builder": "^26.15.3",
+    "vite": "^5.4.0",
+    "wait-on": "^9.0.10"
+  }
+}
