@@ -10,6 +10,16 @@ application is worth making: **is the employer a licensed sponsor, does the sala
 my threshold, and does the role need security clearance?** JobLink answers all three at
 the point of entry — and then keeps your whole pipeline (and your inbox) in one place.
 
+## Screenshots
+
+| Dashboard & pipeline | New application |
+| --- | --- |
+| ![Dashboard](screenshots/dashboard.png) | ![New application](screenshots/new-application.png) |
+
+| Sponsor-aware job-board search | Connect multiple inboxes |
+| --- | --- |
+| ![Job board search](screenshots/job-boards.png) | ![Email inboxes](screenshots/email-inboxes.png) |
+
 ## Features
 
 ### Sponsorship & visa
