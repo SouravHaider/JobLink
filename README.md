@@ -12,14 +12,22 @@ the point of entry — and then keeps your whole pipeline (and your inbox) in on
 
 ## Screenshots
 
+**Dashboard & pipeline**
+
+<img src="screenshots/dashboard.png" width="100%"/>
+
+---
+
+**Connect multiple inboxes**
+
+<p align="center"><img src="screenshots/email-inboxes.png" width="55%"/></p>
+
+---
+
 <table>
   <tr>
-    <td width="50%" valign="top"><b>Dashboard &amp; pipeline</b><br/><img src="screenshots/dashboard.png" width="100%"/></td>
-    <td width="50%" valign="top"><b>New application</b><br/><img src="screenshots/new-application.png" width="100%"/></td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top"><b>Sponsor-aware job-board search</b><br/><img src="screenshots/job-boards.png" width="100%"/></td>
-    <td width="50%" valign="top"><b>Connect multiple inboxes</b><br/><img src="screenshots/email-inboxes.png" width="100%"/></td>
+    <td width="50%" valign="top"><b>New application</b><br/><br/><img src="screenshots/new-application.png" width="100%"/></td>
+    <td width="50%" valign="top"><b>Sponsor-aware job-board search</b><br/><br/><img src="screenshots/job-boards.png" width="100%"/></td>
   </tr>
 </table>
 
