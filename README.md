@@ -24,12 +24,13 @@ the point of entry — and then keeps your whole pipeline (and your inbox) in on
 
 ---
 
-<table>
-  <tr>
-    <td width="50%" valign="top"><b>New application</b><br/><br/><img src="screenshots/new-application.png" width="100%"/></td>
-    <td width="50%" valign="top"><b>Sponsor-aware job-board search</b><br/><br/><img src="screenshots/job-boards.png" width="100%"/></td>
-  </tr>
-</table>
+**New application &nbsp;·&nbsp; Sponsor-aware job-board search**
+
+<p align="center">
+  <img src="screenshots/new-application.png" height="340" alt="New application"/>
+  &nbsp;&nbsp;
+  <img src="screenshots/job-boards.png" height="340" alt="Sponsor-aware job-board search"/>
+</p>
 
 ## Features
 
